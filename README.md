@@ -36,7 +36,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 ```bash
 
     # Clonar o repositório
-    $ git clone https://github.com/danileao/rocketmusic
+    $ git clone https://github.com/nhi1998/FormalizationDigitalTest.git
 
     # Baixar a JDK 1.8
     $ https://www.blogdainformatica.com.br/download/java-jre-1-8-0_101/
