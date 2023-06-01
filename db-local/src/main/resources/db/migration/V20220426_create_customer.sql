@@ -1,0 +1,17 @@
+create table customer(
+CUSTOMER_UID IDENTITY not null,
+CUSTOMER_NAME varchar(50),
+ADDRESS varchar(50),
+RG varchar(50),
+CPF varchar(50),
+EMAIL varchar(50),
+GENERE varchar(50),
+STATE_CIVIL varchar(50),
+TELEPHONE varchar(50),
+LIMITCREDIT FLOAT,
+PRODUCT varchar(255),
+CONTRACTFORMALIZATION varchar(255),
+SIGNATURE varchar(255)
+
+CONSTRAINT PK_CUSTOMER PRIMARY KEY (CUSTOMER_UID)
+);
