@@ -62,7 +62,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n     \"idCustomer\":1,\n     \"contractFormalization\":\"Exemplo contrato\",\n     \"signature\":\"Asinado\"\n     \n}",
+					"raw": "{\n     \"idCustomer\":3,\n     \"contractFormalization\":\"Exemplo contrato\",\n     \"signature\":\"Asinado\"\n     \n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -78,6 +78,26 @@
 					"path": [
 						"formalizationDigital",
 						"formalization"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar todos os Usuários",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/formalizationDigital/simulation/customers",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"formalizationDigital",
+						"simulation",
+						"customers"
 					]
 				}
 			},

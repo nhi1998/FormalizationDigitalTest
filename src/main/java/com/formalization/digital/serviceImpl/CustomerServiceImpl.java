@@ -87,6 +87,11 @@ public class CustomerServiceImpl implements CustomerService {
     }
 
     @Override
+    public List<CustomerEntity> findAllCustomers() {
+        return customerRepository.findAll();
+    }
+
+    @Override
     public CreateCustomerResponse formalizationDigital(FormalizationDigitalRequest formalizationDigitalRequest, CreateCustomerResponse c) {
         CustomerEntity ce = new CustomerEntity();
 
