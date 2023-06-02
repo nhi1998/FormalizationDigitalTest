@@ -28,6 +28,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - [Docker](https://docs.docker.com/)
 - [DBever](https://dbeaver.io/download/)
 - [Postman](https://www.postman.com/)
+- [JUnit](https://junit.org/junit5/)
 
 ---
 
